@@ -1,0 +1,147 @@
+#container{
+    min-height: 100vh;
+    left: 0;
+    background-color: #090F1D;
+    color: white;
+    padding: 20px;
+}
+
+#article-photo-header , #show-articles-page{
+    width: 90%;
+    min-height:80vh ;
+    gap: 20px;
+}
+
+#photo-side-header{
+    min-height: 60vh;
+    background-image: url(/Image/herobg_1920.jpg);
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+#photo-information-title , #information-article{
+    min-height: 5vh;
+    background-color: rgba(0, 0, 0, 0.438);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    justify-content: end;
+}
+
+#show-articles-page{
+    background-color: #060B15;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#article-page{
+    min-height: 30vh;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+#photo-article{
+    height: 30vh;
+    background-image:url(/Image/herobg_1920.jpg) ;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+#photo-article img{
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+#article-info-text h2{
+    font-size: 18px;
+    text-align: right;
+}
+
+#article-info-text p{
+    color: #A8A8A8;
+}
+
+#information-article{
+    min-height: 4vh;
+}
+
+
+#inf-article div img ,  #inf-article div svg{
+    width: 20px;
+}
+
+#line{
+    width: 80%;
+    height: 1px; 
+    background-color: #A8A8A8;
+}
+
+#page-number-show{
+    min-height: 5vh;
+    flex-direction: row-reverse !important;
+    flex-wrap: wrap;
+}
+
+#page-number-show a{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #0D1528;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+#page-number-show a:first-child{
+    text-decoration: none;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    color: #0EA2F4;
+}
+
+#page-number-show a:last-child{
+    text-decoration: none;
+    width: max-content;
+    height: max-content;
+    color: #0EA2F4;
+    background-color: transparent;
+}
+#show-curse-page , #another-article-page{
+    width: 90%;
+    min-height: 50vh;
+    background-color: #060B15;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    align-items: start !important;
+}
+
+#show-curse-page #line , #another-article-page #line{
+    width: 100%;
+}
+
+#curse-side , #article-side-page{
+    width: 100%;
+    min-height: 30vh;
+    /* background-color: aqua; */
+    padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+#curse , #article{
+    width: 300px;
+    /* width: 30px; */
+    min-height: 30vh;
+    background-color: #0D1528;
+    border-radius: 5px;
+}
+
+#show-curse-page h2 , #another-article-page h2{
+    font-size: 18px;
+}
